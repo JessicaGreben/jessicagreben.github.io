@@ -44,6 +44,10 @@ http://www.color-hex.com/color-palette/26141
 	padding: 2.5em;
 }
 
+.dbl-spacer {
+	padding: 5em;
+}
+
 .section {
 	width:100%;
 	display: inline-block;
