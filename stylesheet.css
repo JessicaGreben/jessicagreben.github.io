@@ -23,8 +23,8 @@ a {
  	display: inline-block;
  	padding-left: 1em;
  	padding-right: 1em;
-
 }
+
 /*colors
 http://www.color-hex.com/color-palette/26141
 */
@@ -50,11 +50,8 @@ http://www.color-hex.com/color-palette/26141
 	text-align: center;
 }
 
-
 .title {
-	/*background-color: #00ff79;*/
 	background-color: #6BFFE4;
-	
 }
 
 .img-of-me {
@@ -63,41 +60,17 @@ http://www.color-hex.com/color-palette/26141
 	border-radius: 50%;
 }
 
-.about {
-	/*background-color: #b000ff;*/
-	
-}
-
 .skills {
-	/*background-color: #515151;*/
 	background-color: #A3FFBF;
 }
 
-.icon-size {
-	height: 10em;
-	weight: 100em;
-}
-
-
-.blog {
-	/*background-color: #ebff00;*/
-	/*background-color: #EEFC90;*/
-	
-}
-
 .likes {
-	/*background-color: #ff008f;*/
 	background-color: #CBE632;
 }
 
 .likes-list li, .blog-list li {
 	padding: .5em;
 	text-decoration: underline;
-}
-
-.social {
-	/*background-color: #00ff79;*/
-	
 }
 
 .social-list li, .skills-list li {
@@ -110,4 +83,3 @@ http://www.color-hex.com/color-palette/26141
 	background-color: #515151;
 	
 }
-
