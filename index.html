@@ -1,141 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Jess G | Web Developer</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.3.0/font-mfizz.min.css" rel="stylesheet">
-	<link rel="shortcut icon" type="image/png" href="favicon.png">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-</head>
-	<body>
-		<div class="nav">
-			<ul>
-				<li><a href="#home"><h3>Home</h3></a></li>
-				<li><a href="#about"><h3>About</h3></a></li>
-				<li><a href="#skills"><h3>Skills</h3></a></li>
-				<li><a href="#blog"><h3>Blog</h3></a></li>
-				<li><a href="#likes"><h3>Interests</h3></a></li>
-				<li><a href="#social"><h3>Connect</h3></a></li>
-			</ul>
-		</div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jessica G.</title>
 
-		<div class="title section" id="home">
-			<br>
-			<div class="dbl-spacer"></div>
-			<img src="me.png" alt="photo of Jess" class="img-of-me">
-			<h1>Jess G.</h1>
-			<h2>Software Engineer</h2>
-			<h3>Passion for DevOps and QA</h3>
-			<br>
-			<div class="spacer"></div>
-		</div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
 
-		<!-- About -->
-		<div class="about section" id="about">
-			<div class="spacer"></div>
-			<h2> About</h2>
-			<p>Hi! I'm Jess, a former research scientist and pre-med student turned software engineer living in San Francisco.</p><p>I jumped on the tech bandwagon in 2014.</p><p>Since then I've been enamored with technology and driven to become a well-rounded full stack developer.</p><p> I love to learn, its a lifestyle to me!</p><p>I currently work as an engineer at <a class="underline-link" href="https://reactiveops.com" target="_blank">ReactiveOps</a>.</p><p>
-			<br>
-			<br>
-			<div class="spacer"></div>
-		</div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="styles2.css" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.3.0/font-mfizz.min.css" rel="stylesheet">
+  </head>
 
-		<!-- skills -->
-		<div class="skills section" id="skills">
-			<div class="spacer"></div>
-			<h2> Skills</h2>
-			<ul class='skills-list'>
-				<li><i class="fa-3x icon-aws"></i> AWS</li>
-				<li><i class="fa-3x icon-google"></i>GCP</li>
-				<li><i class="fa-3x icon-docker"></i>Docker</li>
-				<li><i class="fa-3x fa-asterisk"></i>.l Kubernetes</li>
-	        </ul>
-	        <ul class='skills-list'>
-				<li><i class="fa-3x icon-python"></i>Python</li>
-				<li><i class="fa-3x icon-google"></i>Golang</li>
-				<li><i class="fa-3x icon-javascript"></i>JavaScript</li>
-	        </ul>
-	        <ul class='skills-list'>
-				<li><i class="fa-3x icon-mongodb"></i>NoSQL</li>
-				<li><i class="fa-3x icon-postgres"></i>SQL</li>
-	        </ul>
-			<div class="spacer"></div>
-		</div>
+  <body>
 
-		<!-- Blog	 -->
-		<div class="blog section" id="blog">
-			<div class="spacer"></div>
-			<h2>Blog</h2>
-			<p>Read some stuff I wrote on <a href="https://medium.com/@jessgreb01" target="_blank" class="underline-link">my blog!</a></p>
-			<p>Recent blog posts:</p>
-			<ul class="blog-list">
-				<li>
-					<a class="underline-link" href="https://itnext.io/automated-tls-with-cert-manager-and-letsencrypt-for-kubernetes-7daaa5e0cae4" target="_blank">
-						Automated TLS with cert-manager and letsencrypt for Kubernetes
-					</a>
-				</li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Home</a>
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#projects">Projects</a>
+        <a class="nav-item nav-link" href="#blog">Blog</a>
+        <a class="nav-item nav-link" href="#talks">Talks</a>
+        <a class="nav-item nav-link" href="#library">Library</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </div>
+    </nav>
 
-				<li>
-					<a class="underline-link" href="https://medium.com/uptime-99/kubernetes-hpa-autoscaling-with-custom-and-external-metrics-da7f41ff7846" target="_blank">
-					Kubernetes Autoscaling with Custom and External Metrics
-					</a>
-				</li>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Jessica G</h1>
+        <h3>Software Engineer</h3>
+      </div>
+    </div>
 
-				<li>
-					<a class="underline-link" href="https://medium.com/@jessgreb01/how-to-terraform-locking-state-in-s3-2dc9a5665cb6" target="_blank">
-						How to: Terraform Locking State in S3
-					</a>
-				</li>
-				<li>
-					<a class="underline-link" href="https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612#.t4qwgry5h" target="_blank">
-						Digging into Docker Layers
-					</a>
-				</li>
-			</ul>
-			<div class="spacer"></div>
-		</div>
+    <div class="container">
 
-		<!-- Fun stuff/ Stuff I like -->
-		<div class="likes section" id="likes">
-			<div class="spacer"></div>
-			<h2>My interests</h2>
-			<h3>Tech related stuff I like:</h3>
-			<ul class="likes-list">
-				<li><a href="https://amzn.to/2vlZuml" target="_blank">UNIX and Linux System Administration Handbook, 5th Edition </a></li>
-				<li><a href="https://github.com/alex/what-happens-when" target="_blank">What Happens When...</a></li>
-				<li><a href="https://www.womenwhogo.org/" target="_blank">Women Who Go Community</a></li>
-				<li><a href="https://amzn.to/2CMGRO1" target="_blank">The Linux Programming Interface</a></li>
-				<!-- <li><a href=""></a></li> -->
-			</ul>
-		</div>
+      <div class="row">
+        <div class="col-md-9" id="about">
+          <h2>About</h2>
+          <img src="me.png" alt="photo of Jessica" class="img-of-me" height="160" width="160">
+          <p>Hi I'm Jessica, a software engineer living in San Francisco. I jumped on the tech bandwagon in 2014 and since then I've been enamored with technology. I love to learn, its a lifestyle to me.</p>
+          <p>I think algorithms are really cool. I'm an organizer for <a href="https://www.meetup.com/Weekend-Whiteboarding/">Weekend Whiteboarding</a>, where we practice algorithms and technical interview skills.</p>
+        </div>
+      </div>
 
-		<!-- Social Media Links -->
-		<div class="social section" id="social">
-			<div class="spacer"></div>
-			<h2>Connect with me</h2>
-			<ul class='social-list'>
-			<!-- twitter -->
-	        	<li><a href="https://www.twitter.com/JessicaGreben" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a></li>
-	        
-			<!-- linkedin -->
-	        	<li><a href="https://www.linkedin.com/pub/jessica-grebenschikov/a8/7b0/b8a/" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i></a></li>
-			<!-- github -->
-	        	<li><a href="https://github.com/jessicagreben" target="_blank"><i class="fa fa-github fa-4x"></i></a></li>
-	        </ul>
-	        <br>
-			<h2>Contact Me</h2>
-			<!-- email -->
-	        	<a href="mailto:jessica.greben1@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-4x"></i></a>
-			<div class="spacer"></div>
-		</div>
+      <hr>
 
-		<div class="footer section">
-			<div class="spacer"></div>
-			<p>&copy 2016 Jessica Grebenschikov</p>
-			<div class="spacer"></div>
-		</div>
-	<script type="text/javascript" src="jessg.js"></script>
-	</body>
+      <div class="row">
+        <div class="col-md-9" id="projects">
+          <h2>Projects</h2>
+          <p>See stuff I've worked on on my <a href="https://github.com/JessicaGreben">github account</a>.</p>
+          <p>A couple highlights:</p>
+          <ul>
+            <li><p>Solving the golang challenges described <a href="http://golang-challenge.org">here</a>, my <a href="https://github.com/JessicaGreben/golang-challenges" target="_blank">solutions <a>on github.</p></li>
+            <li><p><a href="https://github.com/JessicaGreben/DevOpsBootcamp" target="_blank">DevOps Bootcamp<a> are my favorite resources I've collected over the years to help ramp up on DevOps material.</p></li>
+            <li><p><a href="https://github.com/JessicaGreben/invest-ftw" target="_blank">invest-ftw<a> is a web app writen in golang about investing as an alternative to spending.</p></li>
+            <li><p>Fairwinds is an admission webhook controller that enforces Kubernetes configuration and security standards. Github repo soon to come.</p></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-9" id="blog">
+          <h2>Blog</h2>
+          <p>Read some stuff I wrote on <a href="https://medium.com/@jessgreb01" target="_blank" class="underline-link">my blog!</a></p>
+          <p>A couple highlights:</p>
+          <ul>
+            <li><p><a class="underline-link" href="https://medium.com/@jessgreb01/what-is-the-difference-between-a-process-a-container-and-a-vm-f36ba0f8a8f7" target="_blank">What is the difference between a process, a container, and a VM?</a></p></li>
+            <li><p><a class="underline-link" href="https://itnext.io/automated-tls-with-cert-manager-and-letsencrypt-for-kubernetes-7daaa5e0cae4" target="_blank">
+              Automated TLS with cert-manager and letsencrypt for Kubernetes</a></p></li>
+            <li><p><a class="underline-link" href="https://medium.com/uptime-99/kubernetes-hpa-autoscaling-with-custom-and-external-metrics-da7f41ff7846" target="_blank">Kubernetes Autoscaling with Custom and External Metrics</a></p></li>
+            <li><p><a class="underline-link" href="https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612" target="_blank">Digging Into Docker Layers</a></p></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-9" id="talks">
+          <h2>Talks</h2>
+          <p>It's a current goal to get better at public speaking.</p> 
+          <p>Here are a few of the talks I've given so far.</p>
+          <ul>
+            <li>
+              <p>At Women Who Code talk on <a href="https://github.com/JessicaGreben/wwc-blockchain-cryptocurrency">Blockchain and Cryptocurrency</a>, October 2017.</p>
+            </li>
+            <li>
+              <p>At Pyladies talk on <a href="https://github.com/JessicaGreben/pyladies-files">Intro Python, Files</a>, November 2017.</p>
+            </li>
+          </ul>
+          <p>More to come!</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-9" id="library">
+          <h2>My Library</h2>
+          <p>Check out <a href="http://jessg.com/library.html"> my library</a> that lists my favorite books.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-9" id="library">
+          <h2>Connect with me</h2>
+            <div class="contact">
+              <a href="https://www.twitter.com/JessicaGreben" target="_blank">
+                <i class="fa fa-twitter-square fa-4x"></i>
+              </a>
+            </div>  
+            <div class="contact">
+            <a href="https://www.linkedin.com/pub/jessica-grebenschikov/a8/7b0/b8a/" target="_blank">
+              <i class="fa fa-linkedin-square fa-4x"></i>
+            </a>
+            </div>  
+            <div class="contact">
+            <a href="https://github.com/jessicagreben" target="_blank">
+              <i class="fa fa-github fa-4x"></i>
+            </a>
+            </div>  
+            <div class="contact">
+            <a href="mailto:jessica.greben1@gmail.com" target="_blank">
+              <i class="fa fa-envelope-square fa-4x"></i>
+            </a>
+            </div>  
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Jessica G. 2019</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  </body>
 </html>
